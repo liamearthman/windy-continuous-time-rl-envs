@@ -2,6 +2,9 @@
 
 This repository contains implementations of CT-SAC and CT-TD3 and benchmarks for other Continuous-Time Reinforcement Learning (CT-RL) algorithms together standard Discrete-Time RL baselines. It includes environments for control tasks (DeepMind Control Suite) and financial trading.
 
+# What is different than original CT-RL
+The main difference is that there is a custom implement pendulum environment, that uses strang-splitting for integration, so that we can compare ct-rl to PHAST on the same environment. You will find the environment in the environment directory, and there are added metrics capabilities for comparison. 
+
 ## Installation & Setup
 
 It is recommended to use a Conda environment to manage dependencies.
