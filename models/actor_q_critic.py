@@ -109,6 +109,12 @@ class ActorQCriticModel(Model):
 
         self.to(self.device)
 
+        print(f"[ActorQCriticModel] obs_space={self.observation_space}, "
+              f"obs_dim={obs_dim}, action_dim={action_dim}, "
+              f"obs_dtype={self.observation_space.dtype}, "
+              f"obs_bounds=({self.observation_space.low.min():.2f}, {self.observation_space.low.max():.2f}) to "
+              f"({self.observation_space.high.min():.2f}, {self.observation_space.high.max():.2f})")
+
     def save(self, path: str) -> None:
         """
         Save model parameters to a file.

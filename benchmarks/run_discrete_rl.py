@@ -13,6 +13,7 @@ from itertools import count
 import gymnasium as gym
 from environment.dmc import DMCContinuousEnv
 from environment.trading_env import TradingContinuousEnv
+from environment.PendulumEnv import PendulumEnv, PendulumParams
 from stable_baselines3 import SAC, PPO, TD3
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.logger import configure
@@ -73,6 +74,22 @@ def make_env(env_id, monitor_root, seed, env_meta=None, dataset_path=None):
             kwargs["physics_dt"] = kwargs["dt"]
 
         env = TradingContinuousEnv(npz_path=dataset_path, seed=seed, **kwargs)
+
+    elif env_id.startswith("pendulum"):
+        # Mirror make_ct_env: PendulumEnv only accepts these kwargs (it hardcodes
+        # max_steps=200 and ignores the time-sampling columns), so filter env_meta
+        # down to the keys it takes. This keeps the SB3 baseline's episode length
+        # and dt identical to the CT-SAC run for a fair comparison.
+        pend_keys = {"dt", "max_torque", "min_torque", "max_steps", "q_only", "obs_window", "meas_noise_std"}
+        pend_kwargs = {
+            k: env_meta[k]
+            for k in pend_keys
+            if env_meta and env_meta.get(k) is not None
+        }
+        env = PendulumEnv(params=PendulumParams(), **pend_kwargs)
+
+    
+
     else:
         domain_name, task_name = env_id.split("-", 1)
 

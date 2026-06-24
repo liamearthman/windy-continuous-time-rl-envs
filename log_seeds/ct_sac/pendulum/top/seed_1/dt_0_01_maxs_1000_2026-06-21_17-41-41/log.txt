@@ -1,0 +1,1340 @@
+---------------------------------------
+| train/learning_rate  | 0.00073      |
+| time/fps             | 44508        |
+| time/time_elapsed    | 0            |
+| time/total_timesteps | 2000         |
+| rollout/ep_rew_mean  | -5939.168388 |
+| rollout/ep_len_mean  | 1000.0       |
+---------------------------------------
+---------------------------------------
+| train/learning_rate  | 0.00073      |
+| time/fps             | 39405        |
+| time/time_elapsed    | 0            |
+| time/total_timesteps | 4000         |
+| rollout/ep_rew_mean  | -6059.968705 |
+| rollout/ep_len_mean  | 1000.0       |
+---------------------------------------
+---------------------------------------------
+| train/learning_rate  | 0.00073            |
+| time/fps             | 38027              |
+| time/time_elapsed    | 0                  |
+| time/total_timesteps | 6000               |
+| rollout/ep_rew_mean  | -6159.244035166666 |
+| rollout/ep_len_mean  | 1000.0             |
+---------------------------------------------
+----------------------------------------
+| train/learning_rate  | 0.00073       |
+| time/fps             | 37313         |
+| time/time_elapsed    | 0             |
+| time/total_timesteps | 8000          |
+| rollout/ep_rew_mean  | -6125.6630265 |
+| rollout/ep_len_mean  | 1000.0        |
+----------------------------------------
+---------------------------------------------
+| train/learning_rate  | 0.00073            |
+| train/alpha          | 1.0                |
+| train/alpha_loss     | -0.0               |
+| train/fraction       | 4.460555076599121  |
+| train/critic_loss    | 145.95066833496094 |
+| train/actor_loss     | 1.7767084836959839 |
+| time/fps             | 35067              |
+| time/time_elapsed    | 0                  |
+| time/total_timesteps | 10000              |
+| rollout/ep_rew_mean  | -6216.980791800001 |
+| rollout/ep_len_mean  | 1000.0             |
+---------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.5450553894042969   |
+| train/alpha_loss     | -0.25966596603393555 |
+| train/fraction       | 9.868326187133789    |
+| train/critic_loss    | 9.22446346282959     |
+| train/actor_loss     | 197.00790405273438   |
+| time/fps             | 1475                 |
+| time/time_elapsed    | 8                    |
+| time/total_timesteps | 12000                |
+| rollout/ep_rew_mean  | -6321.823675583334   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.11718934774398804 |
+| train/alpha_loss     | -1.1411501169204712 |
+| train/fraction       | 16.497482299804688  |
+| train/critic_loss    | 22.84610366821289   |
+| train/actor_loss     | 254.5004425048828   |
+| time/fps             | 880                 |
+| time/time_elapsed    | 15                  |
+| time/total_timesteps | 14000               |
+| rollout/ep_rew_mean  | -6201.719526142858  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.0701819509267807  |
+| train/alpha_loss     | 0.32440099120140076 |
+| train/fraction       | 20.361255645751953  |
+| train/critic_loss    | 28.250572204589844  |
+| train/actor_loss     | 276.313720703125    |
+| time/fps             | 674                 |
+| time/time_elapsed    | 23                  |
+| time/total_timesteps | 16000               |
+| rollout/ep_rew_mean  | -6040.9040866875    |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.5080081224441528  |
+| train/alpha_loss     | 0.44652706384658813 |
+| train/fraction       | 33.195011138916016  |
+| train/critic_loss    | 18.907550811767578  |
+| train/actor_loss     | 282.9405822753906   |
+| time/fps             | 570                 |
+| time/time_elapsed    | 31                  |
+| time/total_timesteps | 18000               |
+| rollout/ep_rew_mean  | -5890.846563777778  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.39143985509872437  |
+| train/alpha_loss     | -0.21705885231494904 |
+| train/fraction       | 22.45949363708496    |
+| train/critic_loss    | 22.47456169128418    |
+| train/actor_loss     | 273.9366149902344    |
+| time/fps             | 507                  |
+| time/time_elapsed    | 39                   |
+| time/total_timesteps | 20000                |
+| rollout/ep_rew_mean  | -5588.1168041        |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.49600937962532043 |
+| train/alpha_loss     | 0.18969093263149261 |
+| train/fraction       | 21.803274154663086  |
+| train/critic_loss    | 729.802734375       |
+| train/actor_loss     | 247.47586059570312  |
+| time/fps             | 465                 |
+| time/time_elapsed    | 47                  |
+| time/total_timesteps | 22000               |
+| rollout/ep_rew_mean  | -5323.630496727273  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.39472126960754395 |
+| train/alpha_loss     | 0.04434870183467865 |
+| train/fraction       | 16.400283813476562  |
+| train/critic_loss    | 195.84060668945312  |
+| train/actor_loss     | 233.99710083007812  |
+| time/fps             | 435                 |
+| time/time_elapsed    | 55                  |
+| time/total_timesteps | 24000               |
+| rollout/ep_rew_mean  | -5003.5220255       |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.43582919239997864  |
+| train/alpha_loss     | -0.03359214961528778 |
+| train/fraction       | 24.76158905029297    |
+| train/critic_loss    | 30.583423614501953   |
+| train/actor_loss     | 235.5373992919922    |
+| time/fps             | 413                  |
+| time/time_elapsed    | 62                   |
+| time/total_timesteps | 26000                |
+| rollout/ep_rew_mean  | -4720.215415346154   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.4515520930290222   |
+| train/alpha_loss     | -0.11687467992305756 |
+| train/fraction       | 30.933591842651367   |
+| train/critic_loss    | 49.43596649169922    |
+| train/actor_loss     | 224.56715393066406   |
+| time/fps             | 396                  |
+| time/time_elapsed    | 70                   |
+| time/total_timesteps | 28000                |
+| rollout/ep_rew_mean  | -4477.66465475       |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.4443826675415039   |
+| train/alpha_loss     | 0.011908766813576221 |
+| train/fraction       | 17.542701721191406   |
+| train/critic_loss    | 19.632856369018555   |
+| train/actor_loss     | 211.01556396484375   |
+| time/fps             | 382                  |
+| time/time_elapsed    | 78                   |
+| time/total_timesteps | 30000                |
+| rollout/ep_rew_mean  | -4271.128552866667   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.4682038426399231  |
+| train/alpha_loss     | 0.02702675759792328 |
+| train/fraction       | 20.162433624267578  |
+| train/critic_loss    | 16.1227970123291    |
+| train/actor_loss     | 207.57867431640625  |
+| time/fps             | 370                 |
+| time/time_elapsed    | 86                  |
+| time/total_timesteps | 32000               |
+| rollout/ep_rew_mean  | -4089.51249609375   |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.4737212061882019    |
+| train/alpha_loss     | -0.026917412877082825 |
+| train/fraction       | 34.765846252441406    |
+| train/critic_loss    | 17.69943618774414     |
+| train/actor_loss     | 190.78981018066406    |
+| time/fps             | 361                   |
+| time/time_elapsed    | 94                    |
+| time/total_timesteps | 34000                 |
+| rollout/ep_rew_mean  | -3919.664371735295    |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.4151251018047333   |
+| train/alpha_loss     | 0.044083766639232635 |
+| train/fraction       | 15.53907299041748    |
+| train/critic_loss    | 14.877067565917969   |
+| train/actor_loss     | 191.37918090820312   |
+| time/fps             | 353                  |
+| time/time_elapsed    | 101                  |
+| time/total_timesteps | 36000                |
+| rollout/ep_rew_mean  | -3765.654715         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.31846556067466736  |
+| train/alpha_loss     | -0.04338660091161728 |
+| train/fraction       | 18.338945388793945   |
+| train/critic_loss    | 24.618331909179688   |
+| train/actor_loss     | 174.0126190185547    |
+| time/fps             | 345                  |
+| time/time_elapsed    | 109                  |
+| time/total_timesteps | 38000                |
+| rollout/ep_rew_mean  | -3623.0514803947376  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.3595331311225891  |
+| train/alpha_loss     | 0.05056948587298393 |
+| train/fraction       | 20.581520080566406  |
+| train/critic_loss    | 585.4403686523438   |
+| train/actor_loss     | 174.57345581054688  |
+| eval/mean_reward     | -621.9325909536641  |
+| eval/std_reward      | 644.2143595423105   |
+| eval/mean_ep_length  | 1000.0              |
+| time/total_timesteps | 40000               |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.3597484827041626  |
+| train/alpha_loss     | 0.11537221074104309 |
+| train/fraction       | 20.944904327392578  |
+| train/critic_loss    | 750.4500732421875   |
+| train/actor_loss     | 158.7596893310547   |
+| time/fps             | 338                 |
+| time/time_elapsed    | 118                 |
+| time/total_timesteps | 40000               |
+| rollout/ep_rew_mean  | -3494.5267764000005 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.3669520616531372    |
+| train/alpha_loss     | 0.0038781315088272095 |
+| train/fraction       | 16.012432098388672    |
+| train/critic_loss    | 217.69015502929688    |
+| train/actor_loss     | 156.45657348632812    |
+| time/fps             | 333                   |
+| time/time_elapsed    | 126                   |
+| time/total_timesteps | 42000                 |
+| rollout/ep_rew_mean  | -3379.1338721666666   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.3566485643386841  |
+| train/alpha_loss     | 0.03591800853610039 |
+| train/fraction       | 30.527402877807617  |
+| train/critic_loss    | 21.027658462524414  |
+| train/actor_loss     | 161.2455291748047   |
+| time/fps             | 328                 |
+| time/time_elapsed    | 133                 |
+| time/total_timesteps | 44000               |
+| rollout/ep_rew_mean  | -3285.3122705681817 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.33208972215652466  |
+| train/alpha_loss     | 0.046081334352493286 |
+| train/fraction       | 13.434857368469238   |
+| train/critic_loss    | 9.095239639282227    |
+| train/actor_loss     | 153.48094177246094   |
+| time/fps             | 324                  |
+| time/time_elapsed    | 141                  |
+| time/total_timesteps | 46000                |
+| rollout/ep_rew_mean  | -3146.947355369565   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.2900790572166443  |
+| train/alpha_loss     | 0.03172207251191139 |
+| train/fraction       | 21.746389389038086  |
+| train/critic_loss    | 12.885512351989746  |
+| train/actor_loss     | 154.9238739013672   |
+| time/fps             | 320                 |
+| time/time_elapsed    | 149                 |
+| time/total_timesteps | 48000               |
+| rollout/ep_rew_mean  | -3054.045491770834  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.293955534696579   |
+| train/alpha_loss     | 0.08589690178632736 |
+| train/fraction       | 30.051816940307617  |
+| train/critic_loss    | 15.476892471313477  |
+| train/actor_loss     | 141.7062530517578   |
+| time/fps             | 317                 |
+| time/time_elapsed    | 157                 |
+| time/total_timesteps | 50000               |
+| rollout/ep_rew_mean  | -2960.51743038      |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.3136100172996521   |
+| train/alpha_loss     | -0.12146423012018204 |
+| train/fraction       | 23.82939910888672    |
+| train/critic_loss    | 69.99981689453125    |
+| train/actor_loss     | 148.463623046875     |
+| time/fps             | 314                  |
+| time/time_elapsed    | 165                  |
+| time/total_timesteps | 52000                |
+| rollout/ep_rew_mean  | -2867.3926879230776  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.3161006271839142   |
+| train/alpha_loss     | -0.03501059114933014 |
+| train/fraction       | 29.944395065307617   |
+| train/critic_loss    | 19.335147857666016   |
+| train/actor_loss     | 137.60487365722656   |
+| time/fps             | 311                  |
+| time/time_elapsed    | 173                  |
+| time/total_timesteps | 54000                |
+| rollout/ep_rew_mean  | -2764.4158216851856  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.25974300503730774  |
+| train/alpha_loss     | 0.038117147982120514 |
+| train/fraction       | 29.172483444213867   |
+| train/critic_loss    | 35.56999969482422    |
+| train/actor_loss     | 142.678466796875     |
+| time/fps             | 309                  |
+| time/time_elapsed    | 180                  |
+| time/total_timesteps | 56000                |
+| rollout/ep_rew_mean  | -2668.999556892857   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.2942356765270233    |
+| train/alpha_loss     | -0.050190672278404236 |
+| train/fraction       | 12.321128845214844    |
+| train/critic_loss    | 28.663997650146484    |
+| train/actor_loss     | 125.25695037841797    |
+| time/fps             | 307                   |
+| time/time_elapsed    | 188                   |
+| time/total_timesteps | 58000                 |
+| rollout/ep_rew_mean  | -2579.8182255         |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+---------------------------------------------
+| train/learning_rate  | 0.00073            |
+| train/alpha          | 0.2795904576778412 |
+| train/alpha_loss     | 0.1813233643770218 |
+| train/fraction       | 16.27722930908203  |
+| train/critic_loss    | 21.058446884155273 |
+| train/actor_loss     | 125.7095947265625  |
+| time/fps             | 305                |
+| time/time_elapsed    | 196                |
+| time/total_timesteps | 60000              |
+| rollout/ep_rew_mean  | -2497.115365433334 |
+| rollout/ep_len_mean  | 1000.0             |
+---------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.2531915307044983    |
+| train/alpha_loss     | -0.036564379930496216 |
+| train/fraction       | 14.33936882019043     |
+| train/critic_loss    | 50.942779541015625    |
+| train/actor_loss     | 120.87740325927734    |
+| time/fps             | 303                   |
+| time/time_elapsed    | 204                   |
+| time/total_timesteps | 62000                 |
+| rollout/ep_rew_mean  | -2441.3745987258067   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.21186396479606628  |
+| train/alpha_loss     | 0.011590808629989624 |
+| train/fraction       | 13.350692749023438   |
+| train/critic_loss    | 10.91850757598877    |
+| train/actor_loss     | 114.73283386230469   |
+| time/fps             | 301                  |
+| time/time_elapsed    | 212                  |
+| time/total_timesteps | 64000                |
+| rollout/ep_rew_mean  | -2385.71831715625    |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.20597003400325775   |
+| train/alpha_loss     | -0.005754377692937851 |
+| train/fraction       | 11.342056274414062    |
+| train/critic_loss    | 17.083919525146484    |
+| train/actor_loss     | 115.99425506591797    |
+| time/fps             | 299                   |
+| time/time_elapsed    | 220                   |
+| time/total_timesteps | 66000                 |
+| rollout/ep_rew_mean  | -2315.5320225454548   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.21342021226882935 |
+| train/alpha_loss     | 0.14158198237419128 |
+| train/fraction       | 16.618118286132812  |
+| train/critic_loss    | 36.062164306640625  |
+| train/actor_loss     | 116.32575225830078  |
+| time/fps             | 298                 |
+| time/time_elapsed    | 227                 |
+| time/total_timesteps | 68000               |
+| rollout/ep_rew_mean  | -2249.7396772058823 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.20397090911865234 |
+| train/alpha_loss     | -0.0712241679430008 |
+| train/fraction       | 17.504106521606445  |
+| train/critic_loss    | 14.39780044555664   |
+| train/actor_loss     | 90.609375           |
+| time/fps             | 297                 |
+| time/time_elapsed    | 235                 |
+| time/total_timesteps | 70000               |
+| rollout/ep_rew_mean  | -2187.5321732285715 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.20834451913833618 |
+| train/alpha_loss     | 0.04876108095049858 |
+| train/fraction       | 17.06053352355957   |
+| train/critic_loss    | 8.10474967956543    |
+| train/actor_loss     | 99.94659423828125   |
+| time/fps             | 295                 |
+| time/time_elapsed    | 243                 |
+| time/total_timesteps | 72000               |
+| rollout/ep_rew_mean  | -2129.041465986111  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.20536139607429504  |
+| train/alpha_loss     | -0.07556523382663727 |
+| train/fraction       | 19.190181732177734   |
+| train/critic_loss    | 9.290189743041992    |
+| train/actor_loss     | 102.9354248046875    |
+| time/fps             | 294                  |
+| time/time_elapsed    | 251                  |
+| time/total_timesteps | 74000                |
+| rollout/ep_rew_mean  | -2073.8131984324327  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.17900317907333374   |
+| train/alpha_loss     | -0.029193652793765068 |
+| train/fraction       | 18.423736572265625    |
+| train/critic_loss    | 16.989173889160156    |
+| train/actor_loss     | 102.91737365722656    |
+| time/fps             | 293                   |
+| time/time_elapsed    | 259                   |
+| time/total_timesteps | 76000                 |
+| rollout/ep_rew_mean  | -2020.891501644737    |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.19127967953681946  |
+| train/alpha_loss     | -0.05027277022600174 |
+| train/fraction       | 16.988250732421875   |
+| train/critic_loss    | 15.235471725463867   |
+| train/actor_loss     | 102.322021484375     |
+| time/fps             | 292                  |
+| time/time_elapsed    | 267                  |
+| time/total_timesteps | 78000                |
+| rollout/ep_rew_mean  | -1972.4460151923076  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.14409565925598145  |
+| train/alpha_loss     | -0.09267571568489075 |
+| train/fraction       | 13.678409576416016   |
+| train/critic_loss    | 20.061344146728516   |
+| train/actor_loss     | 91.17692565917969    |
+| eval/mean_reward     | -38.549605155857975  |
+| eval/std_reward      | 18.844188410644183   |
+| eval/mean_ep_length  | 1000.0               |
+| time/total_timesteps | 80000                |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.14408792555332184 |
+| train/alpha_loss     | -0.1609465628862381 |
+| train/fraction       | 17.030672073364258  |
+| train/critic_loss    | 19.775806427001953  |
+| train/actor_loss     | 99.41000366210938   |
+| time/fps             | 290                 |
+| time/time_elapsed    | 275                 |
+| time/total_timesteps | 80000               |
+| rollout/ep_rew_mean  | -1925.6497418375002 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.1580359786748886   |
+| train/alpha_loss     | 0.029330095276236534 |
+| train/fraction       | 18.401037216186523   |
+| train/critic_loss    | 7.3465352058410645   |
+| train/actor_loss     | 93.00279235839844    |
+| time/fps             | 289                  |
+| time/time_elapsed    | 283                  |
+| time/total_timesteps | 82000                |
+| rollout/ep_rew_mean  | -1879.71298597561    |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.15307898819446564  |
+| train/alpha_loss     | -0.14573630690574646 |
+| train/fraction       | 19.409345626831055   |
+| train/critic_loss    | 67.99222564697266    |
+| train/actor_loss     | 87.33775329589844    |
+| time/fps             | 288                  |
+| time/time_elapsed    | 291                  |
+| time/total_timesteps | 84000                |
+| rollout/ep_rew_mean  | -1835.9302479047624  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.15481548011302948   |
+| train/alpha_loss     | -0.007357092574238777 |
+| train/fraction       | 14.086896896362305    |
+| train/critic_loss    | 10.603453636169434    |
+| train/actor_loss     | 88.49762725830078     |
+| time/fps             | 287                   |
+| time/time_elapsed    | 299                   |
+| time/total_timesteps | 86000                 |
+| rollout/ep_rew_mean  | -1793.7281383372099   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.1425030678510666   |
+| train/alpha_loss     | -0.22243459522724152 |
+| train/fraction       | 26.14649200439453    |
+| train/critic_loss    | 12.632028579711914   |
+| train/actor_loss     | 94.60582733154297    |
+| time/fps             | 286                  |
+| time/time_elapsed    | 306                  |
+| time/total_timesteps | 88000                |
+| rollout/ep_rew_mean  | -1753.7783698409091  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.13219571113586426  |
+| train/alpha_loss     | -0.21755777299404144 |
+| train/fraction       | 15.218886375427246   |
+| train/critic_loss    | 35.719722747802734   |
+| train/actor_loss     | 92.5629653930664     |
+| time/fps             | 205                  |
+| time/time_elapsed    | 437                  |
+| time/total_timesteps | 90000                |
+| rollout/ep_rew_mean  | -1715.151947277778   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.12957730889320374   |
+| train/alpha_loss     | -0.014128779992461205 |
+| train/fraction       | 13.780340194702148    |
+| train/critic_loss    | 15.698247909545898    |
+| train/actor_loss     | 95.7524642944336      |
+| time/fps             | 206                   |
+| time/time_elapsed    | 445                   |
+| time/total_timesteps | 92000                 |
+| rollout/ep_rew_mean  | -1678.4517175978262   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.11725298315286636  |
+| train/alpha_loss     | -0.13381601870059967 |
+| train/fraction       | 19.709732055664062   |
+| train/critic_loss    | 19.215087890625      |
+| train/actor_loss     | 88.75453186035156    |
+| time/fps             | 207                  |
+| time/time_elapsed    | 453                  |
+| time/total_timesteps | 94000                |
+| rollout/ep_rew_mean  | -1643.22339412766    |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.09950011968612671  |
+| train/alpha_loss     | -0.18758025765419006 |
+| train/fraction       | 12.428264617919922   |
+| train/critic_loss    | 3.075749397277832    |
+| train/actor_loss     | 72.30221557617188    |
+| time/fps             | 207                  |
+| time/time_elapsed    | 461                  |
+| time/total_timesteps | 96000                |
+| rollout/ep_rew_mean  | -1609.4526098541667  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.11836037784814835  |
+| train/alpha_loss     | -0.04671301692724228 |
+| train/fraction       | 12.537981986999512   |
+| train/critic_loss    | 12.980185508728027   |
+| train/actor_loss     | 79.3318862915039     |
+| time/fps             | 208                  |
+| time/time_elapsed    | 469                  |
+| time/total_timesteps | 98000                |
+| rollout/ep_rew_mean  | -1576.8970085510207  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.11676695942878723  |
+| train/alpha_loss     | -0.22371838986873627 |
+| train/fraction       | 12.878018379211426   |
+| train/critic_loss    | 1129.97314453125     |
+| train/actor_loss     | 80.3136215209961     |
+| time/fps             | 209                  |
+| time/time_elapsed    | 477                  |
+| time/total_timesteps | 100000               |
+| rollout/ep_rew_mean  | -1545.8878197700003  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.09493276476860046  |
+| train/alpha_loss     | -0.03092850372195244 |
+| train/fraction       | 23.634220123291016   |
+| train/critic_loss    | 11.702767372131348   |
+| train/actor_loss     | 76.75247192382812    |
+| time/fps             | 185                  |
+| time/time_elapsed    | 549                  |
+| time/total_timesteps | 102000               |
+| rollout/ep_rew_mean  | -1427.49580365       |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.10959254950284958 |
+| train/alpha_loss     | -0.1827508956193924 |
+| train/fraction       | 10.5337553024292    |
+| train/critic_loss    | 12.855863571166992  |
+| train/actor_loss     | 66.78534698486328   |
+| time/fps             | 186                 |
+| time/time_elapsed    | 557                 |
+| time/total_timesteps | 104000              |
+| rollout/ep_rew_mean  | -1304.32046881      |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.09946845471858978 |
+| train/alpha_loss     | 0.22726528346538544 |
+| train/fraction       | 22.155324935913086  |
+| train/critic_loss    | 14.059102058410645  |
+| train/actor_loss     | 75.14562225341797   |
+| time/fps             | 187                 |
+| time/time_elapsed    | 565                 |
+| time/total_timesteps | 106000              |
+| rollout/ep_rew_mean  | -1177.42851574      |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.0929071307182312  |
+| train/alpha_loss     | 0.06135977804660797 |
+| train/fraction       | 18.974504470825195  |
+| train/critic_loss    | 17.484779357910156  |
+| train/actor_loss     | 60.699581146240234  |
+| time/fps             | 188                 |
+| time/time_elapsed    | 573                 |
+| time/total_timesteps | 108000              |
+| rollout/ep_rew_mean  | -1057.20296854      |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.08999540656805038  |
+| train/alpha_loss     | -0.11009534448385239 |
+| train/fraction       | 11.72714900970459    |
+| train/critic_loss    | 12.370656967163086   |
+| train/actor_loss     | 63.96046829223633    |
+| time/fps             | 189                  |
+| time/time_elapsed    | 581                  |
+| time/total_timesteps | 110000               |
+| rollout/ep_rew_mean  | -925.80796349        |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.10340089350938797 |
+| train/alpha_loss     | 0.2132258117198944  |
+| train/fraction       | 15.642837524414062  |
+| train/critic_loss    | 4.470702648162842   |
+| train/actor_loss     | 69.3142318725586    |
+| time/fps             | 190                 |
+| time/time_elapsed    | 589                 |
+| time/total_timesteps | 112000              |
+| rollout/ep_rew_mean  | -789.2094882100001  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.0858750194311142   |
+| train/alpha_loss     | -0.10613106936216354 |
+| train/fraction       | 9.617258071899414    |
+| train/critic_loss    | 5.858258247375488    |
+| train/actor_loss     | 58.01683044433594    |
+| time/fps             | 152                  |
+| time/time_elapsed    | 745                  |
+| time/total_timesteps | 114000               |
+| rollout/ep_rew_mean  | -680.2373392899999   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.08418148010969162 |
+| train/alpha_loss     | 0.10926022380590439 |
+| train/fraction       | 14.453596115112305  |
+| train/critic_loss    | 23.875778198242188  |
+| train/actor_loss     | 49.93836212158203   |
+| time/fps             | 153                 |
+| time/time_elapsed    | 753                 |
+| time/total_timesteps | 116000              |
+| rollout/ep_rew_mean  | -582.7176691899999  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.09249462187290192  |
+| train/alpha_loss     | 0.020363610237836838 |
+| train/fraction       | 15.207655906677246   |
+| train/critic_loss    | 3.339019775390625    |
+| train/actor_loss     | 57.148216247558594   |
+| time/fps             | 154                  |
+| time/time_elapsed    | 761                  |
+| time/total_timesteps | 118000               |
+| rollout/ep_rew_mean  | -489.82305542        |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.0861850380897522  |
+| train/alpha_loss     | 0.0578366294503212  |
+| train/fraction       | 18.401262283325195  |
+| train/critic_loss    | 3.694969892501831   |
+| train/actor_loss     | 62.05641174316406   |
+| eval/mean_reward     | -62.018729340865136 |
+| eval/std_reward      | 2.007031711818647   |
+| eval/mean_ep_length  | 1000.0              |
+| time/total_timesteps | 120000              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.08620941638946533 |
+| train/alpha_loss     | 0.03518938273191452 |
+| train/fraction       | 14.720931053161621  |
+| train/critic_loss    | 7.436956405639648   |
+| train/actor_loss     | 58.11925506591797   |
+| time/fps             | 155                 |
+| time/time_elapsed    | 769                 |
+| time/total_timesteps | 120000              |
+| rollout/ep_rew_mean  | -433.15485538       |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.07538755238056183  |
+| train/alpha_loss     | -0.13365814089775085 |
+| train/fraction       | 19.548267364501953   |
+| train/critic_loss    | 63.495155334472656   |
+| train/actor_loss     | 65.9177017211914     |
+| time/fps             | 156                  |
+| time/time_elapsed    | 777                  |
+| time/total_timesteps | 122000               |
+| rollout/ep_rew_mean  | -380.3312757400001   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.070686474442482    |
+| train/alpha_loss     | 0.055761732161045074 |
+| train/fraction       | 13.957062721252441   |
+| train/critic_loss    | 2.6420445442199707   |
+| train/actor_loss     | 62.23675537109375    |
+| time/fps             | 155                  |
+| time/time_elapsed    | 795                  |
+| time/total_timesteps | 124000               |
+| rollout/ep_rew_mean  | -351.4790474999999   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.06562221795320511  |
+| train/alpha_loss     | -0.10209164023399353 |
+| train/fraction       | 13.77232837677002    |
+| train/critic_loss    | 6.653054237365723    |
+| train/actor_loss     | 61.09504318237305    |
+| time/fps             | 156                  |
+| time/time_elapsed    | 803                  |
+| time/total_timesteps | 126000               |
+| rollout/ep_rew_mean  | -325.46822688        |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04262031242251396 |
+| train/alpha_loss     | 0.0805070772767067  |
+| train/fraction       | 11.544596672058105  |
+| train/critic_loss    | 4.565306186676025   |
+| train/actor_loss     | 59.89069366455078   |
+| time/fps             | 157                 |
+| time/time_elapsed    | 811                 |
+| time/total_timesteps | 128000              |
+| rollout/ep_rew_mean  | -299.6382603299999  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.06469627469778061  |
+| train/alpha_loss     | 0.003681664355099201 |
+| train/fraction       | 12.972603797912598   |
+| train/critic_loss    | 3.9590933322906494   |
+| train/actor_loss     | 51.4332275390625     |
+| time/fps             | 158                  |
+| time/time_elapsed    | 819                  |
+| time/total_timesteps | 130000               |
+| rollout/ep_rew_mean  | -272.50746533999995  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.07640067487955093  |
+| train/alpha_loss     | -0.16231529414653778 |
+| train/fraction       | 11.349982261657715   |
+| train/critic_loss    | 11.025542259216309   |
+| train/actor_loss     | 54.646034240722656   |
+| time/fps             | 159                  |
+| time/time_elapsed    | 827                  |
+| time/total_timesteps | 132000               |
+| rollout/ep_rew_mean  | -245.68730203000004  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.05653193220496178 |
+| train/alpha_loss     | -0.0837116688489914 |
+| train/fraction       | 15.334759712219238  |
+| train/critic_loss    | 12.23896312713623   |
+| train/actor_loss     | 61.41270065307617   |
+| time/fps             | 160                 |
+| time/time_elapsed    | 835                 |
+| time/total_timesteps | 134000              |
+| rollout/ep_rew_mean  | -221.87363944       |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.057642169296741486  |
+| train/alpha_loss     | -0.005086146295070648 |
+| train/fraction       | 11.050986289978027    |
+| train/critic_loss    | 3.8482022285461426    |
+| train/actor_loss     | 45.14566421508789     |
+| time/fps             | 161                   |
+| time/time_elapsed    | 843                   |
+| time/total_timesteps | 136000                |
+| rollout/ep_rew_mean  | -199.64523255999995   |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.06629045307636261 |
+| train/alpha_loss     | 0.43357354402542114 |
+| train/fraction       | 14.231760025024414  |
+| train/critic_loss    | 4.161097049713135   |
+| train/actor_loss     | 56.87823486328125   |
+| time/fps             | 162                 |
+| time/time_elapsed    | 851                 |
+| time/total_timesteps | 138000              |
+| rollout/ep_rew_mean  | -180.07484558999997 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.056249234825372696 |
+| train/alpha_loss     | -0.01854003593325615 |
+| train/fraction       | 12.89173412322998    |
+| train/critic_loss    | 4.23226261138916     |
+| train/actor_loss     | 50.41958236694336    |
+| time/fps             | 162                  |
+| time/time_elapsed    | 859                  |
+| time/total_timesteps | 140000               |
+| rollout/ep_rew_mean  | -159.76960528        |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.05066188797354698 |
+| train/alpha_loss     | 0.1297219693660736  |
+| train/fraction       | 10.823222160339355  |
+| train/critic_loss    | 4.7758941650390625  |
+| train/actor_loss     | 51.46713638305664   |
+| time/fps             | 163                 |
+| time/time_elapsed    | 867                 |
+| time/total_timesteps | 142000              |
+| rollout/ep_rew_mean  | -138.63553143       |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04945248365402222 |
+| train/alpha_loss     | 0.4034775197505951  |
+| train/fraction       | 14.544268608093262  |
+| train/critic_loss    | 344.38641357421875  |
+| train/actor_loss     | 58.74721145629883   |
+| time/fps             | 164                 |
+| time/time_elapsed    | 875                 |
+| time/total_timesteps | 144000              |
+| rollout/ep_rew_mean  | -112.77347798000001 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.05153605341911316 |
+| train/alpha_loss     | 0.16836030781269073 |
+| train/fraction       | 16.889236450195312  |
+| train/critic_loss    | 3.2730822563171387  |
+| train/actor_loss     | 49.66246032714844   |
+| time/fps             | 165                 |
+| time/time_elapsed    | 882                 |
+| time/total_timesteps | 146000              |
+| rollout/ep_rew_mean  | -110.94245078       |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04431648552417755 |
+| train/alpha_loss     | -0.3095478415489197 |
+| train/fraction       | 11.759410858154297  |
+| train/critic_loss    | 5.851082801818848   |
+| train/actor_loss     | 46.32835388183594   |
+| time/fps             | 136                 |
+| time/time_elapsed    | 1081                |
+| time/total_timesteps | 148000              |
+| rollout/ep_rew_mean  | -92.76298922999999  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+---------------------------------------------
+| train/learning_rate  | 0.00073            |
+| train/alpha          | 0.0510159507393837 |
+| train/alpha_loss     | 0.6846509575843811 |
+| train/fraction       | 9.165841102600098  |
+| train/critic_loss    | 7.656367301940918  |
+| train/actor_loss     | 50.983863830566406 |
+| time/fps             | 137                |
+| time/time_elapsed    | 1089               |
+| time/total_timesteps | 150000             |
+| rollout/ep_rew_mean  | -78.74283335       |
+| rollout/ep_len_mean  | 1000.0             |
+---------------------------------------------
+------------------------------------------------
+| train/learning_rate  | 0.00073               |
+| train/alpha          | 0.046813685446977615  |
+| train/alpha_loss     | -0.041348665952682495 |
+| train/fraction       | 10.946685791015625    |
+| train/critic_loss    | 9.684267044067383     |
+| train/actor_loss     | 46.09773635864258     |
+| time/fps             | 138                   |
+| time/time_elapsed    | 1097                  |
+| time/total_timesteps | 152000                |
+| rollout/ep_rew_mean  | -69.37225682          |
+| rollout/ep_len_mean  | 1000.0                |
+------------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.03683965653181076 |
+| train/alpha_loss     | 0.4922516942024231  |
+| train/fraction       | 13.228121757507324  |
+| train/critic_loss    | 2.565009355545044   |
+| train/actor_loss     | 48.93306350708008   |
+| time/fps             | 139                 |
+| time/time_elapsed    | 1105                |
+| time/total_timesteps | 154000              |
+| rollout/ep_rew_mean  | -67.98131881        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.052535124123096466 |
+| train/alpha_loss     | -0.2384965568780899  |
+| train/fraction       | 11.431954383850098   |
+| train/critic_loss    | 725.6320190429688    |
+| train/actor_loss     | 46.67237091064453    |
+| time/fps             | 140                  |
+| time/time_elapsed    | 1113                 |
+| time/total_timesteps | 156000               |
+| rollout/ep_rew_mean  | -66.71059290000001   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.048414379358291626 |
+| train/alpha_loss     | -0.3286505341529846  |
+| train/fraction       | 22.358388900756836   |
+| train/critic_loss    | 5.680874824523926    |
+| train/actor_loss     | 46.76708221435547    |
+| time/fps             | 140                  |
+| time/time_elapsed    | 1121                 |
+| time/total_timesteps | 158000               |
+| rollout/ep_rew_mean  | -66.289313           |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.03583536669611931  |
+| train/alpha_loss     | -0.07071937620639801 |
+| train/fraction       | 22.08201789855957    |
+| train/critic_loss    | 2.3641867637634277   |
+| train/actor_loss     | 45.37232208251953    |
+| eval/mean_reward     | -24.104774418239987  |
+| eval/std_reward      | 3.3556412747430278   |
+| eval/mean_ep_length  | 1000.0               |
+| time/total_timesteps | 160000               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.0358295664191246  |
+| train/alpha_loss     | 0.03690671548247337 |
+| train/fraction       | 10.304390907287598  |
+| train/critic_loss    | 36.075164794921875  |
+| train/actor_loss     | 43.472530364990234  |
+| time/fps             | 126                 |
+| time/time_elapsed    | 1267                |
+| time/total_timesteps | 160000              |
+| rollout/ep_rew_mean  | -64.71304934        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.051943786442279816 |
+| train/alpha_loss     | 0.2701649069786072   |
+| train/fraction       | 19.243852615356445   |
+| train/critic_loss    | 45.091609954833984   |
+| train/actor_loss     | 45.734947204589844   |
+| time/fps             | 126                  |
+| time/time_elapsed    | 1275                 |
+| time/total_timesteps | 162000               |
+| rollout/ep_rew_mean  | -50.34018447000001   |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.036141689866781235 |
+| train/alpha_loss     | 0.05829029530286789  |
+| train/fraction       | 12.987281799316406   |
+| train/critic_loss    | 3.241128921508789    |
+| train/actor_loss     | 41.20098876953125    |
+| time/fps             | 127                  |
+| time/time_elapsed    | 1283                 |
+| time/total_timesteps | 164000               |
+| rollout/ep_rew_mean  | -38.214264269999994  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.032070327550172806 |
+| train/alpha_loss     | 0.06405015289783478  |
+| train/fraction       | 10.911355972290039   |
+| train/critic_loss    | 6.578586578369141    |
+| train/actor_loss     | 38.318233489990234   |
+| time/fps             | 128                  |
+| time/time_elapsed    | 1291                 |
+| time/total_timesteps | 166000               |
+| rollout/ep_rew_mean  | -37.22501712         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04246808961033821 |
+| train/alpha_loss     | 2.2861673831939697  |
+| train/fraction       | 12.552007675170898  |
+| train/critic_loss    | 5.575786590576172   |
+| train/actor_loss     | 42.81315612792969   |
+| time/fps             | 129                 |
+| time/time_elapsed    | 1299                |
+| time/total_timesteps | 168000              |
+| rollout/ep_rew_mean  | -36.44137486        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.04988635331392288  |
+| train/alpha_loss     | -0.32122915983200073 |
+| train/fraction       | 16.548263549804688   |
+| train/critic_loss    | 5.497885704040527    |
+| train/actor_loss     | 36.97797393798828    |
+| time/fps             | 129                  |
+| time/time_elapsed    | 1307                 |
+| time/total_timesteps | 170000               |
+| rollout/ep_rew_mean  | -35.77448174         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.03950902074575424  |
+| train/alpha_loss     | -0.11517298221588135 |
+| train/fraction       | 18.358774185180664   |
+| train/critic_loss    | 17.14483642578125    |
+| train/actor_loss     | 58.408348083496094   |
+| time/fps             | 78                   |
+| time/time_elapsed    | 2184                 |
+| time/total_timesteps | 172000               |
+| rollout/ep_rew_mean  | -35.59092163         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04520034417510033 |
+| train/alpha_loss     | -0.794162392616272  |
+| train/fraction       | 12.068994522094727  |
+| train/critic_loss    | 4.837431907653809   |
+| train/actor_loss     | 44.46044921875      |
+| time/fps             | 79                  |
+| time/time_elapsed    | 2192                |
+| time/total_timesteps | 174000              |
+| rollout/ep_rew_mean  | -34.29111776        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.0348595567047596  |
+| train/alpha_loss     | 0.15101295709609985 |
+| train/fraction       | 18.82054328918457   |
+| train/critic_loss    | 2.53952693939209    |
+| train/actor_loss     | 35.41777420043945   |
+| time/fps             | 79                  |
+| time/time_elapsed    | 2200                |
+| time/total_timesteps | 176000              |
+| rollout/ep_rew_mean  | -35.480358849999995 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.03586646169424057  |
+| train/alpha_loss     | -0.18224996328353882 |
+| train/fraction       | 14.223689079284668   |
+| train/critic_loss    | 17.422836303710938   |
+| train/actor_loss     | 35.27525329589844    |
+| time/fps             | 80                   |
+| time/time_elapsed    | 2208                 |
+| time/total_timesteps | 178000               |
+| rollout/ep_rew_mean  | -38.22675015         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.035964686423540115 |
+| train/alpha_loss     | -0.1437152475118637  |
+| train/fraction       | 10.81568431854248    |
+| train/critic_loss    | 51.110679626464844   |
+| train/actor_loss     | 45.37879943847656    |
+| time/fps             | 81                   |
+| time/time_elapsed    | 2216                 |
+| time/total_timesteps | 180000               |
+| rollout/ep_rew_mean  | -37.41431841         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04653080180287361 |
+| train/alpha_loss     | -1.2141236066818237 |
+| train/fraction       | 14.376485824584961  |
+| train/critic_loss    | 1082.9896240234375  |
+| train/actor_loss     | 37.289852142333984  |
+| time/fps             | 81                  |
+| time/time_elapsed    | 2224                |
+| time/total_timesteps | 182000              |
+| rollout/ep_rew_mean  | -37.683677010000004 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.03689185902476311  |
+| train/alpha_loss     | -0.45171743631362915 |
+| train/fraction       | 16.609962463378906   |
+| train/critic_loss    | 5.8689961433410645   |
+| train/actor_loss     | 45.372379302978516   |
+| time/fps             | 82                   |
+| time/time_elapsed    | 2232                 |
+| time/total_timesteps | 184000               |
+| rollout/ep_rew_mean  | -37.836203929999996  |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.02991250716149807 |
+| train/alpha_loss     | 0.1778944432735443  |
+| train/fraction       | 14.045269966125488  |
+| train/critic_loss    | 4.1734619140625     |
+| train/actor_loss     | 49.029762268066406  |
+| time/fps             | 83                  |
+| time/time_elapsed    | 2240                |
+| time/total_timesteps | 186000              |
+| rollout/ep_rew_mean  | -38.881839819999996 |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.04180806130170822 |
+| train/alpha_loss     | 0.1390921026468277  |
+| train/fraction       | 10.679891586303711  |
+| train/critic_loss    | 1.8655192852020264  |
+| train/actor_loss     | 41.507041931152344  |
+| time/fps             | 83                  |
+| time/time_elapsed    | 2248                |
+| time/total_timesteps | 188000              |
+| rollout/ep_rew_mean  | -39.46455716        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.029287727549672127 |
+| train/alpha_loss     | 0.22191156446933746  |
+| train/fraction       | 20.627429962158203   |
+| train/critic_loss    | 16.392024993896484   |
+| train/actor_loss     | 39.71388244628906    |
+| time/fps             | 84                   |
+| time/time_elapsed    | 2256                 |
+| time/total_timesteps | 190000               |
+| rollout/ep_rew_mean  | -39.92273006         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.03492961823940277 |
+| train/alpha_loss     | -0.3501398265361786 |
+| train/fraction       | 14.049880027770996  |
+| train/critic_loss    | 1.4416308403015137  |
+| train/actor_loss     | 37.98603057861328   |
+| time/fps             | 84                  |
+| time/time_elapsed    | 2264                |
+| time/total_timesteps | 192000              |
+| rollout/ep_rew_mean  | -39.95399173999999  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.031013701111078262 |
+| train/alpha_loss     | 0.02849172055721283  |
+| train/fraction       | 14.622557640075684   |
+| train/critic_loss    | 1.5162415504455566   |
+| train/actor_loss     | 39.19181823730469    |
+| time/fps             | 85                   |
+| time/time_elapsed    | 2272                 |
+| time/total_timesteps | 194000               |
+| rollout/ep_rew_mean  | -40.25078734         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.02814498357474804 |
+| train/alpha_loss     | 0.04489033669233322 |
+| train/fraction       | 14.686834335327148  |
+| train/critic_loss    | 658.9444580078125   |
+| train/actor_loss     | 37.456058502197266  |
+| time/fps             | 85                  |
+| time/time_elapsed    | 2280                |
+| time/total_timesteps | 196000              |
+| rollout/ep_rew_mean  | -42.05072328        |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------
+-----------------------------------------------
+| train/learning_rate  | 0.00073              |
+| train/alpha          | 0.026997456327080727 |
+| train/alpha_loss     | 0.16062870621681213  |
+| train/fraction       | 15.497069358825684   |
+| train/critic_loss    | 2.8442788124084473   |
+| train/actor_loss     | 31.9697265625        |
+| time/fps             | 86                   |
+| time/time_elapsed    | 2288                 |
+| time/total_timesteps | 198000               |
+| rollout/ep_rew_mean  | -42.38890907         |
+| rollout/ep_len_mean  | 1000.0               |
+-----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.03673643246293068 |
+| train/alpha_loss     | 0.1340414583683014  |
+| train/fraction       | 18.407316207885742  |
+| train/critic_loss    | 3.7308197021484375  |
+| train/actor_loss     | 31.266983032226562  |
+| eval/mean_reward     | -35.97532248544222  |
+| eval/std_reward      | 8.003939455227837   |
+| eval/mean_ep_length  | 1000.0              |
+| time/total_timesteps | 200000              |
+----------------------------------------------
+----------------------------------------------
+| train/learning_rate  | 0.00073             |
+| train/alpha          | 0.03673990070819855 |
+| train/alpha_loss     | 0.07504836469888687 |
+| train/fraction       | 14.239095687866211  |
+| train/critic_loss    | 2.541369676589966   |
+| train/actor_loss     | 41.76687240600586   |
+| time/fps             | 87                  |
+| time/time_elapsed    | 2297                |
+| time/total_timesteps | 200000              |
+| rollout/ep_rew_mean  | -42.68742921999999  |
+| rollout/ep_len_mean  | 1000.0              |
+----------------------------------------------

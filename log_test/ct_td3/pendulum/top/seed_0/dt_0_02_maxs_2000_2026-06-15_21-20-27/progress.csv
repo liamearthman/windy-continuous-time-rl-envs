@@ -1,0 +1,2 @@
+rollout/ep_len_mean,rollout/ep_rew_mean,time/fps,time/time_elapsed,time/total_timesteps,train/learning_rate
+200.0,-1245.7680519,53671,0,2000,0.00073

@@ -1,0 +1,92 @@
+{
+  "description": "ct_sac pendulum (top) 5-seed control eval, aligned metrics (eps=0.1 sustained, effort=int u^2 dt)",
+  "setup": {
+    "algo": "ct_sac",
+    "env": "pendulum",
+    "mode": "top",
+    "regime": "near_unstable (theta=pi+N(0,0.3))",
+    "time_sampling": "uniform",
+    "dt": 0.01,
+    "horizon": 1000,
+    "n_episodes_per_seed": 100,
+    "total_timesteps": 200000,
+    "plant": "position-dependent damping 0.3+0.5|sin|, torque cap +/-20",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "per_seed": {
+    "0": {
+      "success_rate": 1.0,
+      "final_error_mean": 0.0996575490479412,
+      "control_effort_mean": 17.262092259052334,
+      "convergence_time_mean": 1.0119
+    },
+    "1": {
+      "success_rate": 0.0,
+      "final_error_mean": 0.14600549821050565,
+      "control_effort_mean": 33.75799659709159,
+      "convergence_time_mean": 0.5470833333333333
+    },
+    "2": {
+      "success_rate": 0.99,
+      "final_error_mean": 0.03938647293363711,
+      "control_effort_mean": 26.951120695884207,
+      "convergence_time_mean": 0.5253535353535354
+    },
+    "3": {
+      "success_rate": 1.0,
+      "final_error_mean": 0.09219314645948024,
+      "control_effort_mean": 45.38918677499251,
+      "convergence_time_mean": 0.9705000000000001
+    },
+    "4": {
+      "success_rate": 0.48,
+      "final_error_mean": 0.05971329840549667,
+      "control_effort_mean": 14.41952262449935,
+      "convergence_time_mean": 0.5983636363636363
+    }
+  },
+  "aggregate": {
+    "success_rate": {
+      "mean": 0.694,
+      "std": 0.4005795801086221,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 5
+    },
+    "final_error_mean": {
+      "mean": 0.08739119301141217,
+      "std": 0.03655045285866233,
+      "min": 0.03938647293363711,
+      "max": 0.14600549821050565,
+      "n": 5
+    },
+    "control_effort_mean": {
+      "mean": 27.555983790303998,
+      "std": 11.272841396289756,
+      "min": 14.41952262449935,
+      "max": 45.38918677499251,
+      "n": 5
+    },
+    "convergence_time_mean": {
+      "mean": 0.730640101010101,
+      "std": 0.21446334233226458,
+      "min": 0.5253535353535354,
+      "max": 1.0119,
+      "n": 5
+    }
+  },
+  "generated": "2026-06-22T09:55:54",
+  "source_files": [
+    "results/ct_sac_seed0.json",
+    "results/ct_sac_seed1.json",
+    "results/ct_sac_seed2.json",
+    "results/ct_sac_seed3.json",
+    "results/ct_sac_seed4.json"
+  ]
+}

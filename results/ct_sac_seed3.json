@@ -1,0 +1,17 @@
+{
+  "n_episodes": 100,
+  "final_error_mean": 0.09219314645948024,
+  "final_error_std": 4.2273221533376403e-07,
+  "control_effort_mean": 45.38918677499251,
+  "control_effort_std": 31.98715139991,
+  "success_rate": 1.0,
+  "convergence_time_mean": 0.9705000000000001,
+  "convergence_time_std": 0.557751512772489,
+  "algo": "ct_sac",
+  "env_id": "pendulum",
+  "mode": "top",
+  "seed": 3,
+  "dt": 0.01,
+  "horizon": 1000,
+  "target": 3.141592653589793
+}

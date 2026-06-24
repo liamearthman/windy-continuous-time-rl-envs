@@ -14,6 +14,7 @@ from environment.dmc import DMCContinuousEnv
 from environment.monitor import Monitor
 from environment.vec_env import VecContinuousEnv
 from environment.trading_env import TradingContinuousEnv
+from environment.PendulumEnv import PendulumEnv, PendulumParams
 from environment.base import ContinuousEnv
 from algorithms.ct_sac import CTSAC
 from algorithms.ct_td3 import CTTD3
@@ -85,12 +86,26 @@ def make_ct_env(
     """
     Build a single continuous-time environment instance.
     """
-    if env_id.startswith("trading"):
+    # Keys only PendulumEnv accepts; strip them before handing kwargs to the
+    # DMC/trading envs, which reject unknown keyword arguments.
+    pend_only_keys = {"q_only", "obs_window", "meas_noise_std"}
+    shared_kwargs = {k: v for k, v in env_kwargs.items() if k not in pend_only_keys}
+
+    if env_id == "trading":
         env = TradingContinuousEnv(
             npz_path=npz_path,
             seed=seed,
-            **env_kwargs,
+            **shared_kwargs,
         )
+
+    elif env_id == "pendulum":
+        pend_keys = {"dt", "max_torque", "min_torque", "max_steps"} | pend_only_keys
+        # Drop None (empty CSV cells) so PendulumEnv falls back to its defaults.
+        pend_kwargs = {
+            k: v for k, v in env_kwargs.items() if k in pend_keys and v is not None
+        }
+        env = PendulumEnv(params=PendulumParams(), **pend_kwargs)
+
     else:
         if "-" not in env_id:
             raise ValueError("env-id must be 'domain-task', e.g. 'cheetah-run'.")
@@ -99,7 +114,7 @@ def make_ct_env(
             domain_name=domain_name,
             task_name=task_name,
             seed=seed,
-            **env_kwargs,
+            **shared_kwargs,
         )
 
     # Continuous-time Monitor wrapper
@@ -295,6 +310,7 @@ def run_algorithm(
         callback=callback,
         log_interval=log_interval,
     )
+    algorithm.save(str(save_dir / "final_model.pth"))
     print("Training finished.")
 
 
