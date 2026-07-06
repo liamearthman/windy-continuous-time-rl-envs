@@ -44,13 +44,29 @@ SB3_ALGOS = ("sac", "td3", "ppo", "trpo")
 
 
 def find_model(save_root: str, algo: str, env_id: str, mode: str, seed: int, ext: str) -> Path:
-    """Newest checkpoint with the given extension under the run's save dir."""
+    """Final-of-training checkpoint under the run's save dir.
+
+    We deliberately prefer the end-of-training checkpoint (200000_steps, then
+    final_model) over best_model.pth. best_model is the peak-*eval-reward*
+    snapshot (common/callbacks.py EvalCallback), which (a) is selected on a
+    different objective than the reported success/final_error/effort metrics and
+    (b) has no analogue in the frozen-after-training Casimir controllers, so
+    citing it would give RL an asymmetric cherry-picking advantage. This mirrors
+    phase_map.pick_checkpoint so the metrics table and phase maps use the same
+    policy. best_model belongs only in the learning-curve view, not the
+    head-to-head point comparison.
+    """
     base = Path(save_root) / algo / env_id / mode / f"seed_{seed}"
     cands = sorted(base.glob(f"**/*{ext}"), key=lambda p: p.stat().st_mtime)
     if not cands:
         raise FileNotFoundError(f"No '*{ext}' checkpoint under {base}")
-    best = [c for c in cands if "best" in c.name.lower()]
-    return (best or cands)[-1]
+    for key in ("200000_steps", "final_model"):
+        hit = [c for c in cands if key in c.name]
+        if hit:
+            return hit[-1]
+    # Fall back to newest non-best checkpoint, else newest of all.
+    nonbest = [c for c in cands if "best" not in c.name.lower()]
+    return (nonbest or cands)[-1]
 
 
 def load_ct_policy(algo, env, model_kwargs, algo_kwargs, model_path) -> Callable:
