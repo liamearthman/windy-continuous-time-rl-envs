@@ -123,9 +123,35 @@ class CartPoleEnv(ContinuousEnv):
         self, sutton_barto_reward: bool = False, render_mode: str | None = None, dt = 0.02, max_steps = 1000,
         q_only: bool = True, obs_window: int = 16,
         sigma_gust: float = 0.002, sigma_turb: float = 0.001, smooth_eps: float = 1e-3,
+        b_cart: float = 0.0, b_base: float = 0.0, b_amplitude: float = 0.0,
     ):
         super().__init__(dt=dt, max_steps=int(max_steps))
         self._sutton_barto_reward = sutton_barto_reward
+
+        # Rayleigh damping, same shape as WindyPendulumEnv's compute_damping.
+        # In pH terms this is the R of (J - R) grad H + G u, and for a mechanical
+        # system R touches the MOMENTUM block only:
+        #
+        #     R = diag(0, 0, b_cart, b_pole(theta)),   b_pole = b_base + b_amp*|sin|
+        #
+        # so the drag is -b_cart*xdot on p_x and -b_pole*thetadot on p_theta.
+        # Both default to ZERO, which recovers the frictionless cart-pole exactly
+        # -- every existing RL benchmark and the PHVI runner are unaffected unless
+        # they opt in.  Turn them on for system identification, where a plant with
+        # R = 0 gives a damping model nothing to learn.
+        #
+        # |sin(theta)| is SMOOTHED to sqrt(sin^2 + smooth_eps^2), unlike the
+        # pendulum's exact |sin|.  The kink sits at theta = 0 and pi -- upright and
+        # hanging, i.e. precisely the states of interest -- and it would put a
+        # discontinuity in dR/dtheta, which any Jacobian-based identification walks
+        # straight into.  Same reason `diffusion` below already smooths |theta_dot|.
+        #
+        # SCALE.  Critical damping for the pole is ~2*sqrt((4/3)m_p l^2 * m_p g l)
+        # = 0.26 here, so b_base ~ 0.01 is light (zeta ~ 0.04) and identifiable
+        # above the integrator's own energy drift; b_base ~ 0.1 is already heavy.
+        self.b_cart = float(b_cart)
+        self.b_base = float(b_base)
+        self.b_amplitude = float(b_amplitude)
 
         # Wind, same model as WindyPendulumEnv: the diffusion applied to the pole's
         # angular momentum is s = sigma_gust + sigma_turb * |theta_dot|, so a fast
@@ -276,12 +302,25 @@ class CartPoleEnv(ContinuousEnv):
         return (mtot * xdot + mp * l * c * thdot,
                 mp * l * c * xdot + (4.0/3.0) * mp * l**2 * thdot)
 
+    def compute_damping(self, theta):
+        """(b_cart, b_pole(theta)) -- the diagonal of R's momentum block.
+
+        Same form as WindyPendulumEnv.compute_damping, with |sin| smoothed; see
+        the note in __init__.  Both terms are zero by default.
+        """
+        b_pole = self.b_base + self.b_amplitude * np.sqrt(
+            np.sin(theta) ** 2 + self.smooth_eps ** 2)
+        return self.b_cart, b_pole
+
     def _drift(self, z, F):
         x, theta, px, pth = z
         mp, l, g = self.masspole, self.length, self.gravity
         s = np.sin(theta)
         xdot, thdot = self._velocities(theta, px, pth)
-        return np.array([xdot, thdot, F, mp*g*l*s - mp*l*s*xdot*thdot])
+        b_c, b_p = self.compute_damping(theta)
+        return np.array([xdot, thdot,
+                         F - b_c * xdot,
+                         mp*g*l*s - mp*l*s*xdot*thdot - b_p * thdot])
 
     def diffusion(self, z):
         _, thdot = self._velocities(z[1], z[2], z[3])
